@@ -1,0 +1,113 @@
+
+{
+  "bengali_desserts": [
+    {
+      "id": 1,
+      "name": "Sweet 2",
+      "price": 1299,
+      "imgName": "sweets 2.png"
+    },
+    {
+      "id": 2,
+      "name": "sweets 3",
+      "price": 1299,
+      "imgName": "sweets 3.png"
+    },
+    {
+      "id": 3,
+      "name": "sweets 4",
+      "price": 1299,
+      "imgName": "sweets 4.png"
+    },
+    {
+      "id": 5,
+      "name": "sweets 6",
+      "price": 1299,
+      "imgName": "sweets 6.png"
+    },
+    {
+      "id": 4,
+      "name": "sweets 5",
+      "price": 1299,
+      "imgName": "sweets 5.png"
+    },
+    {
+      "id": 6,
+      "name": "Yogurt cup (small)",
+      "price": 1299,
+      "imgName": "yogurt cuo.png"
+    },
+    {
+      "id": 7,
+      "name": "Yogurt clay bowl",
+      "price": 1299,
+      "imgName": "yogurt clay large.png"
+    },
+    {
+      "id": 8,
+      "name": "malai chum chum",
+      "price": 1299,
+      "imgName": "malai chum chum.png"
+    }
+
+
+  ],
+  "cakes": [
+    {
+      "id": 9,
+      "name": "White chocolate cake (whole cake)",
+      "price": 3000,
+      "imgName": "white chocolate cake.png"
+    },
+    {
+      "id": 10,
+      "name": "Selected cupcakes",
+      "price": 500,
+      "imgName": "cupcakes.png"
+    },
+    {
+      "id": 11,
+      "name": "Mocha slice",
+      "price": 500,
+      "imgName": "mochaslice.png"
+    },
+    {
+      "id": 12,
+      "name": "vanilla cake slice",
+      "price": 500,
+      "imgName": "white slice cake.png"
+    },
+    {
+      "id": 13,
+      "name": "chocolate sprinkle cake",
+      "price": 3000,
+      "imgName": "chocolate sprinkle cake.png"
+    },
+    {
+      "id": 14,
+      "name": "Rainbow sprinkle cake",
+      "price": 3000,
+      "imgName": "rainbow sprinkle cake.png"
+    }
+  ],
+   "drinks":[
+    {
+      "id": 15,
+      "name": "Mango/Pink lassi",
+      "price": 699,
+      "imgName": "lassi thing.png"
+    },
+    {
+      "id": 16,
+      "name": "Monster Energy Drink",
+      "price": 350,
+      "imgName": "monster.png"
+    },
+    {
+      "id": 17,
+      "name": "Starbucks frappucino",
+      "price": 250,
+      "imgName": "frappuccino.png"
+    }
+   ]
+}

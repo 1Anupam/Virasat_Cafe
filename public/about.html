@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virasat Cafe | About</title>
+    <meta name="description" content="This is the description" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navStyles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="navbar top" id="navbar">
+        <h1 class="logo">
+          <span class="green"><i class="fas fa-coffee green"></i> Virasat</span
+          ><span class="white">Cafe</span>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/store">Store</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="about-section">
+      <h1>About Us Page</h1>
+      <p>
+        Our mission is to deliver quality sweets, treats and delights to the
+        South Asian community in Jackson Heights as well as introducing our
+        wonderful cuisine to others around New York City. We hope to connect
+        others who don't share the same cuisine as us as well as allow them to
+        try South Asian cuisine.
+      </p>
+      <p>In addition, we offer coffee, tea, cakes & a variety of sandwiches.</p>
+    </div>
+
+    <h2 style="text-align: center; font-size: 42px">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            id="about"
+            src="Images/ceo.png"
+            alt="Pradip"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Pradip Saha</h2>
+            <p class="title">CEO & Co-Owner</p>
+            <p>
+              I have been working in Jackson Heights for several years now and
+              it is my goal to bring the people quality food and sweets after
+              working a long day.
+            </p>
+            <p>psaha27232@yahoo.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            id="about"
+            src="Images/coOwner.png"
+            alt="Chadni"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Chadni Aunty</h2>
+            <p class="title">Co-Owner</p>
+            <p>
+              I have owned a quality clothing store in Jackson Heights for many
+              years and it is located with the cafe. Customers may browse our
+              collection while enjoying sweets or traditional drinks.
+            </p>
+            <p>718-791-8203</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            id="about"
+            src="Images/engineer.png"
+            alt="Anupam, Pratik, and Tahmidur"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Pratik Saha, Anupam Sushil, and Tahmidur Rabb</h2>
+            <p class="title">Website Developers and Managers</p>
+            <p>
+              We are the software engineers that developed and manage this
+              website
+            </p>
+            <p>ps3645@nyu.edu</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Google maps API-->
+    <h1 style="text-align: center">Find us on google maps!</h1>
+    <div id="map"></div>
+
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <p class="band-name">Virasat Cafe</p>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-facebook fa-2x white"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=en"
+              ><i class="fab fa-twitter fa-2x white"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><i class="fab fa-youtube fa-2x white"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><i class="fab fa-linkedin fa-2x white"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      function initMap() {
+        var options = {
+          zoom: 18,
+          center: { lat: 40.74782, lng: -73.89149 }, //Put jackson heights location
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"), options);
+
+        var marker = new google.maps.Marker({
+          position: { lat: 40.74782, lng: -73.89149 },
+          map: map,
+        });
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGutPl0mvHUsQ4DgpQLlUw1-3rV4TUMsc&callback=initMap&libraries=&v=weekly"
+    ></script>
+  </body>
+</html>
