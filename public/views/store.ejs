@@ -9,13 +9,13 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="navStyles.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../navStyles.css" />
     <script src="https://checkout.stripe.com/checkout.js" defer></script>
     <script>
       var stripePublicKey = "<%= stripePublicKey %>";
     </script>
-    <script src="store.js" defer></script>
+    <script src="./store.js" defer></script>
   </head>
   <body>
     <header class="hero">
@@ -40,7 +40,7 @@
         <% items.bengali_desserts.forEach(function(item){ %>
         <div class="shop-item" data-item-id="<%= item.id %>">
           <span class="shop-item-title"><%= item.name %></span>
-          <img class="shop-item-image" src="public/Images/<%= item.imgName %>" />
+          <img class="shop-item-image" src="../Images/<%= item.imgName %>" />
           <div class="shop-item-details">
             <span class="shop-item-price">$<%= item.price / 100 %></span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -57,7 +57,7 @@
         <% items.cakes.forEach(function(item){ %>
         <div class="shop-item" data-item-id="<%= item.id %>">
           <span class="shop-item-title"><%= item.name %></span>
-          <img class="shop-item-image" src="public/Images/<%= item.imgName %>" />
+          <img class="shop-item-image" src="../Images/<%= item.imgName %>" />
           <div class="shop-item-details">
             <span class="shop-item-price">$<%= item.price / 100 %></span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -74,7 +74,7 @@
         <% items.drinks.forEach(function(item){ %>
         <div class="shop-item" data-item-id="<%= item.id %>">
           <span class="shop-item-title"><%= item.name %></span>
-          <img class="shop-item-image" src="public/Images/<%= item.imgName %>" />
+          <img class="shop-item-image" src="../Images/<%= item.imgName %>" />
           <div class="shop-item-details">
             <span class="shop-item-price">$<%= item.price / 100 %></span>
             <button class="btn btn-primary shop-item-button" type="button">
