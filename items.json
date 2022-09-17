@@ -5,49 +5,49 @@
       "id": 1,
       "name": "Sweet 2",
       "price": 1299,
-      "imgName": "sweets 2.png"
+      "imgName": "sweets2.png"
     },
     {
       "id": 2,
       "name": "sweets 3",
       "price": 1299,
-      "imgName": "sweets 3.png"
+      "imgName": "sweets3.png"
     },
     {
       "id": 3,
       "name": "sweets 4",
       "price": 1299,
-      "imgName": "sweets 4.png"
+      "imgName": "sweets4.png"
     },
     {
       "id": 5,
       "name": "sweets 6",
       "price": 1299,
-      "imgName": "sweets 6.png"
+      "imgName": "sweets6.png"
     },
     {
       "id": 4,
       "name": "sweets 5",
       "price": 1299,
-      "imgName": "sweets 5.png"
+      "imgName": "sweets5.png"
     },
     {
       "id": 6,
       "name": "Yogurt cup (small)",
       "price": 1299,
-      "imgName": "yogurt cuo.png"
+      "imgName": "yogurtcuo.png"
     },
     {
       "id": 7,
       "name": "Yogurt clay bowl",
       "price": 1299,
-      "imgName": "yogurt clay large.png"
+      "imgName": "yogurtclaylarge.png"
     },
     {
       "id": 8,
       "name": "malai chum chum",
       "price": 1299,
-      "imgName": "malai chum chum.png"
+      "imgName": "malaichumchum.png"
     }
 
 
@@ -57,7 +57,7 @@
       "id": 9,
       "name": "White chocolate cake (whole cake)",
       "price": 3000,
-      "imgName": "white chocolate cake.png"
+      "imgName": "whitechocolatecake.png"
     },
     {
       "id": 10,
@@ -75,19 +75,19 @@
       "id": 12,
       "name": "vanilla cake slice",
       "price": 500,
-      "imgName": "white slice cake.png"
+      "imgName": "whiteslicecake.png"
     },
     {
       "id": 13,
       "name": "chocolate sprinkle cake",
       "price": 3000,
-      "imgName": "chocolate sprinkle cake.png"
+      "imgName": "chocolatesprinklecake.png"
     },
     {
       "id": 14,
       "name": "Rainbow sprinkle cake",
       "price": 3000,
-      "imgName": "rainbow sprinkle cake.png"
+      "imgName": "rainbowsprinklecake.png"
     }
   ],
    "drinks":[
@@ -95,7 +95,7 @@
       "id": 15,
       "name": "Mango/Pink lassi",
       "price": 699,
-      "imgName": "lassi thing.png"
+      "imgName": "lassithing.png"
     },
     {
       "id": 16,
