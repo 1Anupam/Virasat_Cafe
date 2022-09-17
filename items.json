@@ -63,7 +63,7 @@
       "id": 10,
       "name": "Selected cupcakes",
       "price": 500,
-      "imgName": "cupcakes.png"
+      "imgName": "cup.png"
     },
     {
       "id": 11,
@@ -101,13 +101,13 @@
       "id": 16,
       "name": "Monster Energy Drink",
       "price": 350,
-      "imgName": "monster.png"
+      "imgName": "mon.png"
     },
     {
       "id": 17,
       "name": "Starbucks frappucino",
       "price": 250,
-      "imgName": "frappuccino.png"
+      "imgName": "frap.png"
     }
    ]
 }
